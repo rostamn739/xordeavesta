@@ -1,0 +1,126 @@
+body {margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+
+A:active {color: #A3402F}
+A:link {color: #A3402F}
+A:visited {color: #A3402F}
+A:hover {color: #A3402F}
+
+A.clear:active {text-decoration: none}
+A.clear:link {text-decoration: none}
+A.clear:visited {text-decoration: none}
+A.clear:hover {text-decoration: none}
+
+A.menu:active {color: #100C0B; text-decoration: none}
+A.menu:link {color: #100C0B; text-decoration: none}
+A.menu:visited {color: #100C0B; text-decoration: none}
+A.menu:hover {color: #710010; text-decoration: none}
+
+A.submenu:active {color: #710010; text-decoration: none}
+A.submenu:link {color: #710010; text-decoration: none}
+A.submenu:visited {color: #710010; text-decoration: none}
+A.submenu:hover {color: #710010; text-decoration: none}
+
+A.y:active {color: #8D846D}
+A.y:link {color: #8D846D}
+A.y:visited {color: #8D846D}
+A.y:hover {color: #8D846D}
+
+.menu-left {  font: 15px Georgia, "Times New Roman", Times, serif; color: #710010}
+
+.submenu-left {font: 11px/16px Georgia, "Times New Roman", Times, serif; color: #710010; padding: 9px 12px 12px 51px}
+
+h1 {  font: 50px Georgia, "Times New Roman", Times, serif; color: #8D846D; margin: 0 0 12px 0}
+h1.article {  font: 30px/33px Georgia, "Times New Roman", Times, serif; color: #8D846D; margin: 0 0 12px 0}
+h1.academ {  font: 30px/33px arial, Georgia, "Times New Roman", Times, serif; color: #8D846D; margin: 0 0 12px 0}
+h2 {  font: bold 16px Georgia, "Times New Roman", Times, serif; color: #A3402F; margin-top: 2px; margin-right: 0px; margin-bottom: 2px; margin-left: 0px}
+h3 {  font: 25px Georgia, "Times New Roman", Times, serif; color: #8D846D; margin: 0 0 18px 0}
+p {margin: 0}
+
+DIV.txt {font: 13px/19px Georgia, "Times New Roman", Times, serif; color: #23373E; margin: 0 0 36px 0}
+TD.txt {font: 13px/19px Georgia, "Times New Roman", Times, serif; color: #23373E; margin: 0 0 36px 0}
+DIV.txt_academ {font: 12px/20px arial, "Times New Roman", Times, serif; color: #4B4539; margin: 0 0 36px 0}
+.txt {  font: 11px Georgia, "Times New Roman", Times, serif; color: #23373E}
+.txt1 {  font: 11px Georgia, "Times New Roman", Times, serif; color: #23373E}
+.tnr {  font: 13px "Times New Roman"; }
+P.comment {font: italic 11px Georgia, "Times New Roman", Times, serif; margin: 0 0 6px 0}
+
+@font-face {
+font-family: mith; /* Имя шрифта */
+src: url("Mithra__.eot?#iefix") format('embedded-opentype'), url("Mithra__.ttf") format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: mith; /* Имя шрифта */
+src: url("Mithi___.eot?#iefix") format('embedded-opentype'), url("Mithi___.ttf") format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: mith; /* Имя шрифта */
+src: url("Mithb___.eot?#iefix") format('embedded-opentype'), url("Mithb___.ttf") format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: jam; /* Имя шрифта */
+src: url("Jamaspa_.eot?#iefix") format('embedded-opentype'), url("Jamaspa_.TTF") format('truetype');
+}
+
+.capital {font: 30px/28px Georgia, "Times New Roman", Times, serif; color: #8D846D}
+.avestian { font: 12px jam; description: Авестийский; }
+.translit { font: 16px mith; description: Транслитерация; }
+
+form {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+.myinput {  height: 20px; width: 142px; font: 13px Georgia, "Times New Roman", Times, serif; color: #657377; background-color: #FDFFF4; margin: 0 6px 0 0}
+.mybutton {  height: 19px; width: 60px; font: 11px Georgia, "Times New Roman", Times, serif; color: #657377; background-color: #8D846D; color: #FDFFF4; border: 0}
+td {  font: 11px Georgia, "Times New Roman", Times, serif; color: #23373E}
+TD.service {font-size: 11px; padding: 15px 0 9px 0; border-bottom: 1px solid #BBB5A7}
+
+HR {size: 1px; color: #BBB5A7; margin: 0 0 6px 0; padding: 0}
+
+.calendar-item { 
+	color: #000000; 
+	text-decoration: none; 
+}
+.calendar-item:hover { 
+	color: #710010; 
+} 
+
+.news-date {  font-weight: bold; color: #BBB5A7}
+.news-name {  color: #23373E; margin: 0 0 3px 0}
+.news-intro {margin: 0 0 6px 0}
+
+.news-det {  color: #23373E}
+
+.news-p {margin: 10px 0 10px 22px}
+
+.ft {  color: #23373E}
+.ft a{  color: #23373E; text-decoration: underline}
+
+.ft-2 { color: #23373E }
+.ft-2 a{  color: #23373E; text-decoration: none}
+.ft-2 a:hover{  color: #23373E; text-decoration: underline}
+
+U { font: 16px mith; description: Транслитерация; text-decoration: none; }
+
+#y {color: #BBB5A7}
+#r {color: #A3402F}
+#g {color: #888888}
+
+.question { color: #A3402F; }
+
+* html #menufirst { padding-top: 6px; margin-bottom: 0px; } 
+#menufirst { padding-top: 6px; padding-bottom: 0; margin-bottom: -6; } 
+.menu-left IMG { margin-bottom: 4px; }
+* html .menu-left IMG { margin-bottom: 1px; }
+* html #menulast { padding-bottom: 0px; }
+
+
+DIV.txt table td {
+	font-size: 90%;
+}
+
+.ssil2 { color: #ffffff !important; text-decoration: none; } .ssil2 a { color: #ffffff !important; text-decoration: none; } .ssil2 a:visited { color: #ffffff !important; text-decoration: none; } .ssil2 a:link { color: #ffffff !important; text-decoration: none; } .ssil2 a:hover { color: #ffffff !important; text-decoration: none; }
